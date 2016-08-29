@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 		timeButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
+				//Create a Date object, which will be initialized to the current date and time.
 				String currentTime = new Date().toString();
 				Toast.makeText(MainActivity.this, "The time is " + currentTime, Toast.LENGTH_LONG).show();
 			}
